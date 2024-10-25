@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cuento 2</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+    <h1>The Secret Treasure</h1>
+    <p>cuento nivel intermedio</p>
+    </header>
+
+    <!-- cuento 2-->
+    <img src="imagen 2.jfif" alt="imagen del cuento 2">
+    <p>Emily and Jack were siblings who loved adventures. They lived in a small town surrounded by woods and hills. Every day after school, they would explore the forest behind their house, imagining they were on great adventures. One summer afternoon, while walking through the forest, Jack tripped over something hard buried in the ground.
+
+        "Ouch!" Jack said, looking down. He saw a small, rusty key sticking out of the dirt. "Look, Emily! A key!" he exclaimed, picking it up. Emily’s eyes widened. "I wonder what it opens!" she said excitedly. They both started looking around, hoping to find a lock, a box, or something mysterious.
+        
+        For hours, they searched the forest, but they couldn’t find anything. "Maybe it's just an old key with no use," Emily said, feeling disappointed. But Jack wasn’t ready to give up. He had an idea. "What if the key opens something underground?" he suggested. Emily's face lit up. "Let’s try digging!" she said.
+        
+        The next day, they returned to the spot where they found the key, carrying shovels. They dug for hours, but found nothing. Just when they were about to give up, Jack’s shovel hit something hard. "I found something!" he shouted. Emily rushed over to see. They cleared the dirt and discovered a small, wooden box.
+        
+        The box had a keyhole that fit the rusty key perfectly. They looked at each other with excitement. Jack inserted the key and turned it slowly. The box clicked open. Inside, there were several old gold coins and a yellowed letter. Emily unfolded the letter and read aloud:
+        
+        “This treasure belongs to my children. I hid it here during difficult times. If you find this, it means the worst is over. Use this treasure wisely.”
+        
+        Emily and Jack looked at each other in amazement. "This must have belonged to our great-grandfather!" Emily exclaimed. They knew stories about how their great-grandfather had hidden things during hard times. They decided to keep the treasure a secret, just between them, and promised to use it for something special when they grew up.</p>
+
+        <!-- pregunta 1 B-->
+    <div class="contenido">
+        <section id="p0">
+            <h3>1 - ¿Dónde encontraron Emily y Jack la llave vieja y oxidada?</h3>
+            <label>
+                <input type="radio" value="3" name="p0" onclick="respuesta(0,this)"> En el ático de su casa
+            </label>
+            <label>
+                <input type="radio" value="1" name="p0" onclick="respuesta(0,this)"> En el bosque, cerca de un árbol
+            </label>
+            <label>
+                <input type="radio" value="2" name="p0" onclick="respuesta(0,this)"> En el sótano de su abuela
+            </label>
+        </section>
+        <!-- pregunta 2 c-->
+        <section id="p1">
+            <h3>2 - ¿Qué idea tuvo Emily sobre dónde podría estar el tesoro escondido?</h3>
+            <label>
+                <input type="radio" value="1" name="p1" onclick="respuesta(1,this)"> En el sótano de su casa
+            </label>
+            <label>
+                <input type="radio" value="2" name="p1" onclick="respuesta(1,this)"> En un lago cercano
+            </label>
+            <label>
+                <input type="radio" value="3" name="p1" onclick="respuesta(1,this)"> Enterrado bajo el árbol donde encontraron la llave
+            </label>
+        </section>        
+        <!-- pregunta 3 b-->
+        <section id="p2">
+            <h3>3 - ¿Qué encontraron dentro del cofre después de abrirlo con la llave?</h3>
+            <label>
+                <input type="radio" value="2" name="p2" onclick="respuesta(2,this)"> Juguetes antiguos
+            </label>
+            <label>
+                <input type="radio" value="3" name="p2" onclick="respuesta(2,this)"> Monedas de oro y una carta
+            </label>
+            <label>
+                <input type="radio" value="1" name="p2" onclick="respuesta(2,this)"> Un mapa del tesoro
+            </label>
+        </section>        
+        <!-- pregunta 4 c-->
+        <section id="p3">
+            <h3>4 - ¿Qué decía la carta que estaba dentro del cofre?</h3>
+            <label>
+                <input type="radio" value="3" name="p3" onclick="respuesta(3,this)"> Una lista de tareas
+            </label>
+            <label>
+                <input type="radio" value="2" name="p3" onclick="respuesta(3,this)"> Una advertencia para no gastar el dinero
+            </label>
+            <label>
+                <input type="radio" value="1" name="p3" onclick="respuesta(3,this)"> Que el tesoro pertenecía a su bisabuelo
+            </label>
+        </section>        
+        <!-- pregunta 5 a-->
+        <section id="p4">
+            <h3>5 - ¿Qué decidieron hacer Emily y Jack con el tesoro después de encontrarlo?</h3>
+            <label>
+                <input type="radio" value="2" name="p4" onclick="respuesta(4,this)"> Lo vendieron inmediatamente
+            </label>
+            <label>
+                <input type="radio" value="1" name="p4" onclick="respuesta(4,this)"> Lo regalaron a un museo
+            </label>
+            <label>
+                <input type="radio" value="3" name="p4" onclick="respuesta(4,this)"> Max estaba herido
+            </label>
+        </section>
+
+        <button onclick="corregir()">CORREGIR</button>
+        <h2>Cantidad acertadas: <span id="resultado"></span></h2>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

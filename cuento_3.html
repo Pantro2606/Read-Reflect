@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cuento 3</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+    <h1>The Mysterious Lighthouse</h1>
+    <p>cuento nivel dificil</p>
+    </header>
+
+    <!-- cuento 3 -->
+    <img src="imagen 3.jfif" alt="imagen del cuento 3">
+    <p>It was a cold, foggy night, and Richard, a sailor with years of experience, was at the helm of his ship, struggling to navigate through the stormy seas. His compass spun wildly, and the stars, usually his guide, were hidden behind thick clouds. The waves crashed violently against the side of his ship, and Richard feared the worst—being lost at sea. His crew had already gone below deck, trusting him to guide them to safety.
+
+        As he scanned the horizon, desperate for any sign of land, a faint light appeared in the distance. It flickered weakly, but it was there—a lighthouse! Richard felt a surge of hope. He hadn’t seen any land for days, and now, here was a beacon of safety. He steered the ship toward the light, but as he got closer, something felt off. The lighthouse stood on an island that wasn’t on any of his maps. Richard had sailed these waters many times before, but he had never heard of this place.
+        
+        The closer he got, the more unsettling the island appeared. Jagged rocks surrounded its shores, and the light from the lighthouse flickered unnaturally, as if it was struggling to stay on. Richard anchored the ship and decided to explore. He rowed a small boat to the shore, the waves crashing against the rocks, making it difficult to land.
+        
+        Once on the island, the air felt heavy, and the silence was eerie. The lighthouse towered above him, its light now completely off. Richard climbed the winding staircase inside, the wooden steps creaking beneath his feet. As he reached the top, he found the lantern room empty, except for an old, dusty journal lying on the floor. He picked it up and began to read.
+        
+        The journal belonged to the previous lighthouse keeper, who wrote about strange occurrences on the island. “Ships are drawn here by the light, but once they arrive, they cannot leave,” the last entry read. Richard’s heart raced. He turned to leave, but the door to the lighthouse suddenly slammed shut, locking him inside. He tried to force it open, but it wouldn’t budge.
+        
+        Panic set in as the light outside flickered back on, casting an eerie glow across the sea. Richard ran back down the stairs, but as he reached the bottom, he found that his small boat was gone, and the sea around the island was now completely still, as if frozen in time.
+        
+        Days passed, and no one came for Richard. He was trapped, just like the ships before him, caught by the mysterious lighthouse that guided sailors to their doom. The light would continue to flicker, drawing others to the same fate.</p>
+
+        <!-- pregunta 1 b-->
+        <div class="contenido">
+            <section id="p0">
+                <h3>1 - ¿Por qué Richard estaba preocupado mientras navegaba su barco?</h3>
+                <label>
+                    <input type="radio" value="3" name="p0" onclick="respuesta(0,this)"> Había perdido su mapa
+                </label>
+                <label>
+                    <input type="radio" value="2" name="p0" onclick="respuesta(0,this)"> Estaba perdido y su brújula no funcionaba
+                </label>
+                <label>
+                    <input type="radio" value="1" name="p0" onclick="respuesta(0,this)"> La tripulación había desaparecido
+                </label>
+            </section>
+            <!-- pregunta 2 b-->
+            <section id="p1">
+                <h3>2 - ¿Qué le pareció extraño a Richard sobre el faro cuando lo vio por primera vez?</h3>
+                <label>
+                    <input type="radio" value="3" name="p1" onclick="respuesta(1,this)"> Estaba en llamas
+                </label>
+                <label>
+                    <input type="radio" value="2" name="p1" onclick="respuesta(1,this)"> No aparecía en ningún mapa
+                </label>
+                <label>
+                    <input type="radio" value="1" name="p1" onclick="respuesta(1,this)"> Había muchas personas allí
+                </label>
+            </section>        
+            <!-- pregunta 3 c-->
+            <section id="p2">
+                <h3>3 - ¿Qué encontró Richard en la parte superior del faro cuando subió las escaleras?</h3>
+                <label>
+                    <input type="radio" value="1" name="p2" onclick="respuesta(2,this)"> Un barco
+                </label>
+                <label>
+                    <input type="radio" value="2" name="p2" onclick="respuesta(2,this)"> Un baúl lleno de tesoros
+                </label>
+                <label>
+                    <input type="radio" value="3" name="p2" onclick="respuesta(2,this)"> Un diario antiguo
+                </label>
+            </section>        
+            <!-- pregunta 4 a-->
+            <section id="p3">
+                <h3>4 - ¿Qué decía la última entrada del diario que encontró Richard en el faro?</h3>
+                <label>
+                    <input type="radio" value="2" name="p3" onclick="respuesta(3,this)"> "La luz guiará a los perdidos, pero una vez aquí, no podrán irse"
+                </label>
+                <label>
+                    <input type="radio" value="1" name="p3" onclick="respuesta(3,this)"> "Nunca apagues la luz"
+                </label>
+                <label>
+                    <input type="radio" value="3" name="p3" onclick="respuesta(3,this)"> "Este faro es solo una ilusión"
+                </label>
+            </section>        
+            <!-- pregunta 5 c-->
+            <section id="p4">
+                <h3>5 - ¿Cómo termina el cuento para Richard después de quedar atrapado en la isla?</h3>
+                <label>
+                    <input type="radio" value="1" name="p4" onclick="respuesta(4,this)"> Logra escapar en su barco
+                </label>
+                <label>
+                    <input type="radio" value="2" name="p4" onclick="respuesta(4,this)"> Se convierte en el nuevo guardián del faro
+                </label>
+                <label>
+                    <input type="radio" value="3" name="p4" onclick="respuesta(4,this)"> El faro desaparece y se queda atrapado para siempre
+                </label>
+            </section>
+    
+            <button onclick="corregir()">CORREGIR</button>
+            <h2>Cantidad acertadas: <span id="resultado"></span></h2>
+        </div>
+    
+        <script src="script.js"></script>
+
+</body>
+</html>

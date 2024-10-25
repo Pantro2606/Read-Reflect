@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cuento 1</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+    <h1>The Lost Dog</h1>
+    <p>cuento nivel basico</p>
+    </header>
+    
+    <!-- //cuento 1// -->
+    <img src="imagen 1.jfif" alt="imagen del cuento 1">
+    <p>Tom was a ten-year-old boy who loved playing outside. He had a small dog named Max, a brown and white terrier. Max was Tom's best friend. Every afternoon, after school, Tom would take Max to the park. They loved playing fetch, running around, and chasing each other.
+
+        One sunny afternoon, Tom and Max went to the park as usual. Tom threw the ball, and Max happily ran after it. They did this many times until Max suddenly stopped. He saw a bird flying low and got excited. Max began barking and running after the bird. Tom yelled, "Max, come back!" But Max kept running, ignoring Tom’s calls.
+        
+        Tom quickly got worried. Max ran far, and soon Tom couldn’t see him anymore. He looked around the park, calling out, "Max! Max!" But there was no sign of his little dog. Tom felt tears coming to his eyes. "Where could Max be?" he thought.
+        
+        He searched for hours, asking people if they had seen a small brown and white dog. Nobody had seen him. Tom went home sadly. He sat by the window, hoping Max would come back. As the sun set and the sky turned dark, Tom started to cry. He missed Max so much.
+        
+        Then, late at night, Tom heard a noise at the door. It was a soft scratching sound. He ran to open it, and there, sitting outside with dirty paws and wagging his tail, was Max! Tom hugged him tightly, relieved and happy. "Max, you're back!" he said. Max licked Tom’s face, and they went inside together. From that day, Tom always kept Max on a leash, so he would never lose him again.</p>
+    
+            <!-- //preguntas// -->
+        <!-- pregunta 1 a-->
+    <div class="contenido">
+        <section id="p0">
+            <h3>1 - ¿Cómo era el perro de Tom, Max, en cuanto a su tamaño y color?</h3>
+            <label>
+                <input type="radio" value="1" name="p0" onclick="respuesta(0,this)"> Pequeño y marrón
+            </label>
+            <label>
+                <input type="radio" value="2" name="p0" onclick="respuesta(0,this)"> Grande y negro
+            </label>
+            <label>
+                <input type="radio" value="3" name="p0" onclick="respuesta(0,this)"> Mediano y blanco
+            </label>
+        </section>
+        <!-- pregunta 2 c-->
+        <section id="p1">
+            <h3>2 - ¿Qué hizo que Max se alejara de Tom en el parque?</h3>
+            <label>
+                <input type="radio" value="1" name="p1" onclick="respuesta(1,this)"> Corrió tras otro perro
+            </label>
+            <label>
+                <input type="radio" value="2" name="p1" onclick="respuesta(1,this)"> Se asustó con un ruido
+            </label>
+            <label>
+                <input type="radio" value="3" name="p1" onclick="respuesta(1,this)"> Vio a un pájaro y lo persiguió
+            </label>
+        </section>        
+        <!-- pregunta 3 c-->
+        <section id="p2">
+            <h3>3 - ¿Cómo se sintió Tom cuando no pudo encontrar a Max?</h3>
+            <label>
+                <input type="radio" value="1" name="p2" onclick="respuesta(2,this)"> Aliviado
+            </label>
+            <label>
+                <input type="radio" value="2" name="p2" onclick="respuesta(2,this)"> Enojado
+            </label>
+            <label>
+                <input type="radio" value="3" name="p2" onclick="respuesta(2,this)"> Triste y preocupado
+            </label>
+        </section>        
+        <!-- pregunta 4 a-->
+        <section id="p3">
+            <h3>4 - ¿Qué hizo Tom después de buscar a Max en el parque sin éxito?</h3>
+            <label>
+                <input type="radio" value="1" name="p3" onclick="respuesta(3,this)"> Volvió a casa esperando que Max regresara
+            </label>
+            <label>
+                <input type="radio" value="2" name="p3" onclick="respuesta(3,this)"> Llamó a la policía
+            </label>
+            <label>
+                <input type="radio" value="3" name="p3" onclick="respuesta(3,this)"> Siguió buscando por toda la ciudad
+            </label>
+        </section>        
+        <!-- pregunta 5 b-->
+        <section id="p4">
+            <h3>5 - ¿Cómo termina el cuento cuando Max regresa a casa?</h3>
+            <label>
+                <input type="radio" value="1" name="p4" onclick="respuesta(4,this)"> Max estaba enfermo
+            </label>
+            <label>
+                <input type="radio" value="2" name="p4" onclick="respuesta(4,this)"> Tom estaba feliz y abrazó a Max
+            </label>
+            <label>
+                <input type="radio" value="3" name="p4" onclick="respuesta(4,this)"> Max estaba herido
+            </label>
+        </section>
+
+        <button onclick="corregir()">CORREGIR</button>
+        <h2>Cantidad acertadas: <span id="resultado"></span></h2>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
